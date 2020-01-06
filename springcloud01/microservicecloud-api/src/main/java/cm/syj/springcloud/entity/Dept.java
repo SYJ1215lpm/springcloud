@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * @author SYJ
- * @description: TODO
+ * @description: 部门管理实体类
  * @date 2020/1/2
  */
 
