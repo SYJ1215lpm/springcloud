@@ -1,4 +1,4 @@
-package com.syj.constroller;
+package com.syj.controller;
 
 import com.syj.service.DeptService;
 import com.syj.springcloud.entity.Dept;
