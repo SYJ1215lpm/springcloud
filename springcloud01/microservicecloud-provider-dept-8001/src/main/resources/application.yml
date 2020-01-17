@@ -7,8 +7,6 @@ mybatis:
   mapper-locations:
     - classpath:mybatis/mapper/**/*.xml                     # mapper映射文件
 
-
-
 spring:
   application:
     name: microservicecloud-dept
@@ -23,3 +21,12 @@ spring:
       initial-size: 5                                       # 初始化连接数
       max-total: 5                                          # 最大连接数
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+  instance:
+    instance-id: microservicecloud-dept8001                 # 自定义服务名称信息
+    prefer-ip-address: true                                 #
